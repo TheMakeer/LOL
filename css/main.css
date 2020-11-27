@@ -1,0 +1,132 @@
+html {
+    font-size: 62.5%;
+    /*Reset for REM's -62.5% = 10px de 16px*/
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    background-image: url('../img/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+article {
+    margin: 5rem 3rem 0 3rem;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+h3 {
+    font-size: 2.3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10rem auto 10rem auto;
+}
+
+/**************
+ * UTILIDADES *
+ *************/
+
+.text-left {
+    text-align: left!important
+}
+
+.text-right {
+    text-align: right!important
+}
+
+.text-center {
+    text-align: center!important
+}
+
+.shadow {
+    box-shadow: 0rem .5rem .5rem 0 rgba(0, 0, 0, 0.25);
+}
+
+/**********
+ * PAGINA *
+ *********/
+
+.card {
+    background-color: #5a5a5a6c;
+}
+
+.card-cont {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.card-text-cont {
+    margin-left: 3rem;
+}
+
+article img {
+    width: 14rem;
+    height: 14rem;
+}
+
+article h1 {
+    margin: 0;
+}
+
+iframe {
+    height: 30rem;
+    width: 100%;
+}
+
+.f-200 {
+    font-weight: 200;
+}
+
+.f-400 {
+    font-weight: 400;
+}
+
+.f-700 {
+    font-weight: 700;
+}
